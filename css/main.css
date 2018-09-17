@@ -1,0 +1,337 @@
+
+
+/* ==========================================================================
+  Aztlandev
+  https://aztlandev.com
+  developer: Gio
+  contact: giovanny@aztlandev.com
+   ========================================================================== */
+
+/*estructura para las tarjetas*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+ /*tamaño de las targetas*/
+.frontside .card,
+.backside .card {
+    min-height: 212px;
+
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    line-height:1.6em; 
+}
+body > section{
+    clear: both;
+    padding: 100px 0;
+}
+
+h2{
+    color: #0c243d;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.4em;
+
+}
+
+/*p.numeral{
+
+font-size: 1.6em;
+font-weight: 700;
+color: #ffffff;
+-webkit-text-shadow: 0px 7px 8px black;
+-moz-text-shadow: 0px 7px 8px black;
+
+}*/
+body{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+16,bfe8f9+44,e4f5fc+74 */
+background: #e4f5fc; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #e4f5fc 16%, #bfe8f9 44%, #e4f5fc 74%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #e4f5fc 16%,#bfe8f9 44%,#e4f5fc 74%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #e4f5fc 16%,#bfe8f9 44%,#e4f5fc 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#e4f5fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.fondos{
+    position: absolute;
+}
+
+#particles-js{
+    background-attachment: contain;
+    background-size: cover;
+    background:#e5fcf9;
+}
+.separador{
+    width: 40px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #37A4DE; 
+    margin-bottom: 20px;
+}
+
+.grisBG{
+    background-color: #f5f5f5;
+}
+.azulBg{
+    background-color:#37A4DE ;
+}
+.bob{
+     background-color:#000000;
+}
+
+/*#PRINCIPAL*/
+section#Home{
+    
+    min-height: 700px;
+    padding-top: 0px;
+}
+
+
+/*imagenes de univercidades*/
+
+#Groupings .group .gro{
+      width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 180px
+}
+
+/*SERVICES*/
+section#Services p{
+    font-size: .9em;
+    color: #858585;
+}
+section#Services .servicio{
+    margin-bottom: 10px;
+    clear: both;
+}
+section#Services .icono{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #37A4DE;
+    margin: 0 auto;
+    line-height: 140px;
+    text-align: center;
+
+}
+
+
+/*PARALLAX*/
+
+section#numeral{
+    height: 500px;
+    background-image: url(../img/parallax.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*Contacto*/
+
+section#Contact div.contenidoFormulario{
+    padding-top: 100px;
+    height: 500px;
+
+}
+section#Contact div.formulario{
+    width: 50%;
+    float: left;
+    height: 100%;
+    -webkit-box-shadow: inset -7px -7px -12px -2px rgba(0,0,0,.15);
+     -moz-box-shadow: inset -7px -7px -12px -2px rgba(0,0,0,.15);
+     z-index: 1;
+     text-align: center;
+}
+section#Contact div.derechaVacio{
+    width: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    height: 100%
+    z-index:2;
+
+}
+section#Contact .oficina{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;  
+}
+section#Contact .RedesSocial >div{
+    border-radius: 10px;
+    border: 3px solid #0c243d;
+    padding: 8px 0;
+    font-size: 1.1em;
+    position: relative;
+    padding-left: 35px;
+    color: #0c243d;
+
+}
+section#Contact .RedesSocial >div span{
+    font-weight: bold;
+}
+section#Contact h3{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+section#Contact .campos {
+background-color: #37A4DE;
+border:2px solid #ffffff;
+border-radius: 10px;
+color: white;
+}
+
+section#Contact form{
+    margin-top: 25px;
+}
+section#Contacto input{
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+section#Contact textarea{
+    min-height: 100px;
+}
+section#Contact .botn.btn-default{
+    background: white;
+    border-radius: 14px;
+    padding:5px 14px; 
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder{
+    color: #ffffff!important;
+}
+::-moz-placeholder{
+    color: #ffffff!important;
+}
+::-moz-placeholder{
+    color: #ffffff!important;
+}
+::-ms-input-placeholder{
+    color: #ffffff!important;
+}
