@@ -141,7 +141,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 1.4em;
-    line-height:1.6em; 
+    line-height:1.6em;
 }
 body > section{
     clear: both;
@@ -187,7 +187,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', end
     height: 4px;
     display: block;
     margin: 0 auto;
-    background-color: #37A4DE; 
+    background-color: #37A4DE;
     margin-bottom: 20px;
 }
 
@@ -203,7 +203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', end
 
 /*#PRINCIPAL*/
 section#Home{
-    
+
     min-height: 700px;
     padding-top: 0px;
 }
@@ -279,7 +279,7 @@ section#Contact .oficina{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 50px;  
+    top: 50px;
 }
 section#Contact .RedesSocial >div{
     border-radius: 10px;
@@ -319,7 +319,7 @@ section#Contact textarea{
 section#Contact .botn.btn-default{
     background: white;
     border-radius: 14px;
-    padding:5px 14px; 
+    padding:5px 14px;
     font-size: 1.4em;
     text-transform: uppercase;
 }
